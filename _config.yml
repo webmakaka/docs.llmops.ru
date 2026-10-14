@@ -6,7 +6,7 @@ description: Начинаем собирать материалы по авто�
 keywords: machine learning, mlops, aiops, devops, gitops, cloud, linux, docker, kubernetes
 
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'https://docs.aiops.ru' # the base hostname & protocol for your site
+url: 'https://docs.llmops.ru' # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

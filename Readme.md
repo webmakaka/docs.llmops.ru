@@ -1,20 +1,20 @@
-# Исходники сайта [docs.aiops.ru](https://docs.aiops.ru)
+# Исходники сайта [docs.llmops.ru](https://docs.llmops.ru)
 
-Запустить docs.aiops.ru на своем хосте с использованием docker контейнера:
+Запустить docs.llmops.ru на своем хосте с использованием docker контейнера:
 
-    $ docker run -i -t -p 80:80 --name docs.aiops.ru marley/docs.aiops.ru
+    $ docker run -i -t -p 80:80 --name docs.llmops.ru marley/docs.llmops.ru
 
 <br/>
 
 ### Как сервис
 
-    # vi /etc/systemd/system/docs.aiops.ru.service
+    # vi /etc/systemd/system/docs.llmops.ru.service
 
-вставить содержимое файла docs.aiops.ru.service
+вставить содержимое файла docs.llmops.ru.service
 
-    # systemctl enable docs.aiops.ru.service
-    # systemctl start  docs.aiops.ru.service
-    # systemctl status docs.aiops.ru.service
+    # systemctl enable docs.llmops.ru.service
+    # systemctl start  docs.llmops.ru.service
+    # systemctl status docs.llmops.ru.service
 
 http://localhost:4006
 
@@ -25,8 +25,8 @@ http://localhost:4006
 Инсталлируете docker и docker-compose, далее:
 
     $ cd ~
-    $ mkdir -p docs.aiops.ru && cd docs.aiops.ru
-    $ git clone --depth=1 https://github.com/webmakaka/docs.aiops.ru.git .
+    $ mkdir -p docs.llmops.ru && cd docs.llmops.ru
+    $ git clone --depth=1 https://github.com/webmakaka/docs.llmops.ru.git .
     $ docker-compose up
 
 <br/>
